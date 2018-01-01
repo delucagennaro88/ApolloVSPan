@@ -6,4 +6,4 @@ In my case, the App is dedicated to the legendary musical duel between the god A
 The pictures of Apollo and Pan are from Europeana database. They are taken from the Miniature of Midas judging the contest between Pan and Apollo (from BL Harley 4431, f. 108 | Christine de Pizan). Here is the link to the image (free of license): http://bit.ly/2CtkWIy
   
 Preview (static): https://imageshack.com/a/img923/995/TuGjb1.jpg
-Preview (dinamic, GIF): http://gph.is/2EnCIh4
+Preview (dinamic, GIF): http://gph.is/2EsojAc
