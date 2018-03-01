@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void displayPraiseforApollo (int score){
-        TextView scoreView = (TextView) findViewById(R.id.apollo_music);
+        TextView scoreView = findViewById(R.id.apollo_music);
         scoreView.setText(String.valueOf(score));
     }
 
@@ -41,37 +41,37 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void displayIntensityforA (int score){
-        TextView scoreView = (TextView) findViewById(R.id.apollo_i_score);
+        TextView scoreView = findViewById(R.id.apollo_i_score);
         scoreView.setText(String.valueOf(score));
     }
 
     public void addMelodicPraiseToA (View v){
-        melodyApollo = melodyApollo + 1;
+        melodyApollo = melodyApollo + 2;
         displayMelodyforA(melodyApollo);
     }
 
     private void displayMelodyforA (int score){
-        TextView scoreView = (TextView) findViewById(R.id.apollo_m_score);
+        TextView scoreView = findViewById(R.id.apollo_m_score);
         scoreView.setText(String.valueOf(score));
     }
 
     public void addHarmonicPraiseToA (View v){
-        harmonyApollo = harmonyApollo + 1;
+        harmonyApollo = harmonyApollo + 2;
         displayHarmonyforA(harmonyApollo);
     }
 
     private void displayHarmonyforA (int score){
-        TextView scoreView = (TextView) findViewById(R.id.apollo_h_score);
+        TextView scoreView = findViewById(R.id.apollo_h_score);
         scoreView.setText(String.valueOf(score));
     }
 
     public void addRythmicPraiseToA (View v){
-        rhythmApollo = rhythmApollo + 1;
+        rhythmApollo = rhythmApollo + 3;
         displayRhythmforA(rhythmApollo);
     }
 
     private void displayRhythmforA (int score) {
-        TextView scoreView = (TextView) findViewById(R.id.apollo_r_score);
+        TextView scoreView = findViewById(R.id.apollo_r_score);
         scoreView.setText(String.valueOf(score));
     }
 
@@ -81,7 +81,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void displayPraiseforPan (int score){
-        TextView scoreView = (TextView) findViewById(R.id.pan_music);
+        TextView scoreView = findViewById(R.id.pan_music);
         scoreView.setText(String.valueOf(score));
     }
 
@@ -91,37 +91,37 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void displayIntensityforP (int score){
-        TextView scoreView = (TextView) findViewById(R.id.pan_i_score);
+        TextView scoreView = findViewById(R.id.pan_i_score);
         scoreView.setText(String.valueOf(score));
     }
 
     public void addMelodicPraiseToP (View v){
-        melodyPan = melodyPan + 1;
+        melodyPan = melodyPan + 2;
         displayMelodyforP(melodyPan);
     }
 
     private void displayMelodyforP (int score){
-        TextView scoreView = (TextView) findViewById(R.id.pan_m_score);
+        TextView scoreView = findViewById(R.id.pan_m_score);
         scoreView.setText(String.valueOf(score));
     }
 
     public void addHarmonicPraiseToP (View v){
-        harmonyPan = harmonyPan + 1;
+        harmonyPan = harmonyPan + 2;
         displayHarmonyforP(harmonyPan);
     }
 
     private void displayHarmonyforP (int score){
-        TextView scoreView = (TextView) findViewById(R.id.pan_h_score);
+        TextView scoreView = findViewById(R.id.pan_h_score);
         scoreView.setText(String.valueOf(score));
     }
 
     public void addRhytmicPraiseToP (View v){
-        rhythmPan = rhythmPan + 1;
+        rhythmPan = rhythmPan + 3;
         displayRhythmforP(rhythmPan);
     }
 
     private void displayRhythmforP (int score) {
-        TextView scoreView = (TextView) findViewById(R.id.pan_r_score);
+        TextView scoreView = findViewById(R.id.pan_r_score);
         scoreView.setText(String.valueOf(score));
     }
 

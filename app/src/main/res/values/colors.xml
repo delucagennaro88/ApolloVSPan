@@ -3,4 +3,9 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="colorPraise">#A5243D</color>
+    <color name="colorIntensity">#B48291</color>
+    <color name="colorMelody">#AFAAB9</color>
+    <color name="colorHarmony">#B9CFD4</color>
+    <color name="colorRhythm">#CEE0DC</color>
 </resources>
